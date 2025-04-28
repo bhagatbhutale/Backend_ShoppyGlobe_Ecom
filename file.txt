@@ -1,0 +1,11 @@
+
+28-04-25  --> ShoppyGlobe_Ecom_Backend Project is Started 
+
+Project Setup
+- npm init
+- npm i express
+- npm i mongoose
+- npm i --save-dev nodemon 
+- touch index.js
+- file.txt 
+- pushed on github
