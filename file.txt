@@ -12,3 +12,5 @@ Project Setup
 - in package.json --> "start" : "nodemon index.js"
 
 30-04-25 
+
+config --> db.js      <-- mongoDb connection function written here
