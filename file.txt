@@ -8,4 +8,7 @@ Project Setup
 - npm i --save-dev nodemon 
 - touch index.js
 - file.txt 
-- pushed on github
+- pushed on github  ✅
+- in package.json --> "start" : "nodemon index.js"
+
+30-04-25 
