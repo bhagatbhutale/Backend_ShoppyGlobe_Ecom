@@ -5,21 +5,26 @@ const productSchema = new mongoose.Schema({
         type : String,
         required : true,
         trim : true,
+        minLength : 3,
+        maxLength : 50,
     },
 
     price : {
         type : Number,
         required : true,
-        trim : true
+        trim : true,
+        default : 1,
     },
 
     description : {
         type : String,
         minLength : 5,
+        maxLength : 100,
     },
     stockQuantity : {
         type : Number,
         default: 0,
+        min : 0,
     }
 })
 

@@ -24,3 +24,4 @@ Project is Systematically arrenges is Done ✅
 - inserted a Dummy products in MongoDB compass is done ✅
 ------------------------------
 - /products  --> get all products using API is Done ✅   03:55pm
+- /products/:id  --  fetch the product using product id is done ✅

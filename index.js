@@ -2,6 +2,7 @@ const express = require("express");
 // mongoDb connection require 
 const mongoDB = require("./config/db")
 
+// routes require product and cart
 const productRoutes = require("./routes/productRoutes")
 const cartRoutes = require("./routes/cartRoutes")
 
@@ -12,10 +13,10 @@ app.use(express.json());
 // call to MongoDb connection function.
 mongoDB();
 
-
 // routes for product and cart 
 app.use("/products", productRoutes );
 app.use("/cart", cartRoutes);
+
 
 // home route
 app.use("/", (req, res) => {
