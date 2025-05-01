@@ -18,6 +18,10 @@ app.use("/products", productRoutes );
 app.use("/cart", cartRoutes);
 
 // home route
+app.use("/", (req, res) => {
+    res.send("Welcom to ShoppyGlobe backend..")
+})
+
 app.listen(port, (req, res) => {
     console.log("Server is Listening on Port 7001...")
 })

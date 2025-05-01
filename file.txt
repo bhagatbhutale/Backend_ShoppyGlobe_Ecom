@@ -20,3 +20,7 @@ config --> db.js      <-- mongoDb connection function written here
 - routes define
 
 Project is Systematically arrenges is Done ✅
+- home route is done ✅
+- inserted a Dummy products in MongoDB compass is done ✅
+------------------------------
+- /products  --> get all products using API is Done ✅   03:55pm
