@@ -17,3 +17,6 @@ config --> db.js      <-- mongoDb connection function written here
 
 01-05-25 -->
 - cartSchema done ✅
+- routes define
+
+Project is Systematically arrenges is Done ✅
