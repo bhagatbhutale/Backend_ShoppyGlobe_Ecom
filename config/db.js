@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const mongoDB = async () => {
     try {
-        await mongoose.connect('mongodb://127.0.0.1:27017/')
+        await mongoose.connect('mongodb://127.0.0.1:27017/ShoppyGlobeBackend')
         console.log("MongoDB Connected ...")
     }
     catch (error) {

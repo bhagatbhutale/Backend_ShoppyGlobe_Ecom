@@ -14,3 +14,6 @@ Project Setup
 30-04-25 
 
 config --> db.js      <-- mongoDb connection function written here
+
+01-05-25 -->
+- cartSchema done ✅

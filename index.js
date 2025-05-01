@@ -1,9 +1,10 @@
 const express = require("express");
+// mongoDb connection require 
+const mongoDB = require("./config/db")
 const app = express();
 const port = 7001;
 
-// mongoDb connection require 
-const mongoDB = require("./config/db")
+app.use(express.json());
 // call to MongoDb connection function.
 mongoDB();
 
