@@ -6,6 +6,13 @@ const mongoDB = require("./config/db")
 const productRoutes = require("./routes/productRoutes")
 const cartRoutes = require("./routes/cartRoutes")
 
+const registerRoute = require("./auth/register")
+const loginRoute = require("./auth/login")
+
+//
+const verifyToken = require("./auth/middleware")
+
+
 const app = express();
 const port = 7001;
 
@@ -15,7 +22,11 @@ mongoDB();
 
 // routes for product and cart 
 app.use("/products", productRoutes );
-app.use("/cart", cartRoutes);
+app.use("/cart", verifyToken , cartRoutes);
+
+// app.use("/register", authRoutes);
+app.use("/register", registerRoute);
+app.use("/login", loginRoute);
 
 
 // home route
