@@ -64,7 +64,9 @@ All cart routes are protected by JWT:
 - JWT for auth
 - ThunderClient for testing
 
----
+------
+
+git clone https://github.com/bhagatbhutale/Backend_ShoppyGlobe_Ecom.git
 
 ## 🚀 Getting Started
 

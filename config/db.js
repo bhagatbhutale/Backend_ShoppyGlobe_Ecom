@@ -1,8 +1,13 @@
+
+require("dotenv").config();
+
 const mongoose = require("mongoose");
+
+
 
 const mongoDB = async () => {
     try {
-        await mongoose.connect('mongodb://127.0.0.1:27017/ShoppyGlobeBackend')
+        await mongoose.connect(process.env.MONGODB_URL)
         console.log("MongoDB Connected ...")
     }
     catch (error) {
