@@ -68,5 +68,5 @@ All cart routes are protected by JWT:
 
 ## 🚀 Getting Started
 
-npm install
-nodemon index.js
+- npm install
+- nodemon index.js
