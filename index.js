@@ -13,7 +13,7 @@ const loginRoute = require("./auth/login");
 
 // auth middleware require
 const verifyToken = require("./auth/middleware");
-
+const SECRET_KEY = process.env.SECRET_KEY;
 const app = express();
 //  getting a .env in file 
 const port = process.env.PORT || 7001;
